@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+.menu{
+  background-color: black;
+  width: 24px;
+  height: 2px;
+  margin: 5px;
+  right: 20px;
+}
+.ham{
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 501;
+}
+.content{
+  background-color: #1e2122;
+  width: 300px;
+  height:100vh;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  -webkit-box-shadow: -3px 1px 5px 0px rgba(50, 50, 50, 0.53);
+  -moz-box-shadow:    -3px 1px 5px 0px rgba(50, 50, 50, 0.53);
+  box-shadow:         -3px 1px 5px 0px rgba(50, 50, 50, 0.53);
+  padding-top: 60px;
+  box-sizing: border-box;
+  z-index: 500;
+  display: none;
+}
+.content div{
+    padding: 19px;
+}
+.content div a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+.slideInRight{
+  animation-duration: 0.3s;
+}
