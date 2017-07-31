@@ -9,6 +9,17 @@ body{
   width: auto;
   margin-top: 10px;
 }
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top:0px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 400;
+}
 .research{
   height: 200px;
   margin-right: 20px;
