@@ -41,7 +41,7 @@ body{
   margin-left: 20px;
 }
 .slideInLeft,.fadeInLeft,.fadeOutLeft{
-  animation-duration: 0.4s;
+  animation-duration: 0.3s;
 }
 .slideOutLeft{
   animation-duration: 0.2s;
@@ -64,9 +64,9 @@ body{
   transition: .25s ease-in-out;
 }
 .pdf{
-  font-size: 23px;
+  font-size: 20px;
   position: absolute;
-  top: 18px;
+  top: 21px;
 }
 .back-arrow{
   font-size: 19px;
