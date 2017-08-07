@@ -47,11 +47,6 @@ body{
 }
 .main-container{
   margin-top: 120px;
-  /*-webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 1px 3px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 1px 3px 0px rgba(50, 50, 50, 0.75);*/
-  border-radius: 3px;
-
 }
 p,li{
   font-family: 'Lato', sans-serif;
