@@ -19,7 +19,7 @@ body{
   position: fixed;
   left: 0;
   top: 0;
-  bottom: 0;
+  /*bottom: 0;*/
   -webkit-box-shadow: -3px 1px 5px 0px rgba(50, 50, 50, 0.53);
   -moz-box-shadow:    -3px 1px 5px 0px rgba(50, 50, 50, 0.53);
   box-shadow:         -3px 1px 5px 0px rgba(50, 50, 50, 0.53);

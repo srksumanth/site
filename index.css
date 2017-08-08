@@ -21,27 +21,25 @@ body{
 #header{
   position: fixed;
   top: 0;
-  left: 0;
+  /*left: 0;
   right: 0;
-  bottom: 0;
-  margin-top:0px;
-  margin-right: auto;
-  margin-left: auto;
+  bottom: 0;*/
+  width: 100%;
   z-index: 250;
   background-color: white;
   height: 84px;
   overflow: hidden;
-  -webkit-box-shadow: 0px 0.25px 4px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 0.25px 4px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 0.25px 4px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 0px -2px 10px 0px rgba(50, 50, 50, 0.27);
+  -moz-box-shadow:    0px -2px 10px 0px rgba(50, 50, 50, 0.27);
+  box-shadow:         0px -2px 10px 0px rgba(50, 50, 50, 0.27);
 }
 .research{
-  height: 270px;
+  height: 200px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 .graph{
-  height: 300px;
+  height: 250px;
   margin-left: 20px;
   margin-bottom: 15px;
 }
@@ -82,5 +80,11 @@ li{
   padding: 3px 0;
 }
 .footer{
+  width: 100%;
+  background-color: #414347;
+  color: white;
   padding: 30px 0px;
+  -webkit-box-shadow: 0px -2px 8px 0px rgba(50, 50, 50, 0.27);
+  -moz-box-shadow:    0px -2px 8px 0px rgba(50, 50, 50, 0.27);
+  box-shadow:         0px -2px 8px 0px rgba(50, 50, 50, 0.27);
 }
