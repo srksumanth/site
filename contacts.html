@@ -6,15 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>R&C MNNIT</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Compiled and minified CSS -->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="stylesheet" href="index.css">
-      <link rel="stylesheet" href="animate.css">
-      <link rel="stylesheet" href="menu.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
@@ -25,6 +23,7 @@
     <span></span>
     <span></span>
   </div>
+  <div class="patch animated"></div>
   <div class="content animated">
     <div class="animated p1">
       <a href="index.html">Home</a>
@@ -53,7 +52,7 @@
     <div class="animated projects-sub ">
       <a href="#!">Sponsered Projects</a>
     </div>
-    <div class="animated projects-sub " >
+    <div class="animated projects-sub ">
       <a href="#!">Institute Funded Projects</a>
     </div>
     <div class="animated projects-sub">
@@ -72,7 +71,7 @@
       <a href="#!"><i class="material-icons back-arrow">&#xE314;</i>Back</a>
     </div>
     <div class="animated lectures-sub">
-      <a href="#!">Expert Lecture</a>
+      <a href="#!">Expert Lecture&nbsp;&nbsp;&nbsp;<i class="material-icons pdf">&#xE415;</i></a>
     </div>
     <div class="animated lectures-sub">
       <a href="lecture1.html">Category 1 Lectures</a>
@@ -96,7 +95,7 @@
       </div>
       <div class="col-md-2 col-sm-2 col-xs-2">
         <a href="index.html">
-          <img src="MNNIT.svg" alt="" class="img-responsive logo-mnnit">
+          <img src="img/MNNIT.svg" alt="" class=" logo-mnnit">
         </a>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-8 text-left">
@@ -105,26 +104,41 @@
     </div>
   </div>
 
-  <div class="container" style="margin-top:100px">
-    <div class="row">
-      <div class="col s12 m7 l12">
-        <div class="card horizontal">
-          <div class="card-image valign-wrapper">
-            <img style="width:100px;display:inline" src="http://mnnit.ac.in/images/stories/vnsnap.JPG">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h4>Dr.(Mrs) Vineeta Agrawal - Dean (R&C)</h4>
-              <p>Designation : Professor</p>
-              <p>Qualification : Ph.D.</p>
-              <p>Phone No : +91-532-2271034(O)</p>
-              <p>Email : vineeta@mnnit.ac.in</p>
-            </div>
-            <div class="card-action">
-              <a href="#!">View More</a>
-            </div>
-          </div>
-        </div>
+  <div class="container" style="margin-top:120px;margin-bottom:20px;">
+    <div class="row card">
+      <div class="col-md-2 col-xs-12 col-sm-2 img" style="display:inline">
+        <img style="width:100px;" src="img/vnsnap.JPG">
+      </div>
+      <div class="col-md-10 col-sm-10 col-xs-12">
+        <h3>Dr.(Mrs) Vineeta Agrawal - Dean (R&C)</h3>
+        <p>Designation : Professor</p>
+        <p>Qualification : Ph.D.</p>
+        <p>Phone No : <a href="tel:+91-532-2271034">+91-532-2271034</a> (O)</p>
+        <p>Email : <a href="mailto:vineeta@mnnit.ac.in">vineeta@mnnit.ac.in</a></p>
+      </div>
+    </div>
+    <div class="row card">
+      <div class="col-md-2 col-xs-12 col-sm-2 img" style="display:inline">
+        <img style="width:110px;margin-top:30px" src="img/rn2.jpg">
+      </div>
+      <div class="col-md-10 col-sm-10 col-xs-12">
+        <h3>Dr. Richa Negi - Dy. Dean (R&C)</h3>
+        <p>Designation : Associate Professor</p>
+        <p>Qualification : Ph.D.</p>
+        <p>Phone No : <a href="tel:+91-532-2271410">+91-532-2271410</a> (O)</p>
+        <p>Email : <a href="mailto:richa@mnnit.ac.in">richa@mnnit.ac.in</a></p>
+      </div>
+    </div>
+    <div class="row card">
+      <div class="col-md-2 col-xs-12 col-sm-2 img" style="display:inline">
+        <img style="width:100px;" src="img/ranvijay.jpg">
+      </div>
+      <div class="col-md-10 col-sm-10 col-xs-12">
+        <h3>Dr. Ranvijay - Publication Committee (R&C) And Website Management</h3>
+        <p>Designation : Assistant Professor</p>
+        <p>Qualification : M.Tech,Ph.D.</p>
+        <p>Phone No : <a href="tel:+91-532-2271367">+91-532-2271367</a> (O)</p>
+        <p>Email : <a href="mailto:ranvijay@mnnit.ac.in">ranvijay@mnnit.ac.in</a></p>
       </div>
     </div>
   </div>
@@ -134,9 +148,9 @@
   </div>
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src="jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script src="index.js" charset="utf-8"></script>
+  <script src="js/index.js" charset="utf-8"></script>
 </body>
