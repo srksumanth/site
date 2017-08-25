@@ -219,4 +219,6 @@
         $("h2 small").html("RESEARCH AND CONSULTANCY");
         $("#nav-icon").css({"display":"none"});
     }
+
+
   });
