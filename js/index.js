@@ -1,5 +1,6 @@
   var x = 1;
   $(function() {
+
     $("#nav-icon,#close-menu").click(function() {
       if (x == 1) {
         $(".content").css({
@@ -199,18 +200,23 @@
     });
   });
 
+
   if($(window).width()<900){
     $("h2 small").html("R&amp;C");
+    $("#nav-icon").css({"display":"inherit"});
   }
   else{
       $("h2 small").html("RESEARCH AND CONSULTANCY");
+      $("#nav-icon").css({"display":"none"});
   }
 
   $(window).on('resize',function(){
     if($(window).width()<900){
       $("h2 small").html("R&amp;C");
+      $("#nav-icon").css({"display":"inherit"});
     }
     else{
         $("h2 small").html("RESEARCH AND CONSULTANCY");
+        $("#nav-icon").css({"display":"none"});
     }
   });

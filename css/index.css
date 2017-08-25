@@ -34,18 +34,6 @@ body {
   box-shadow: 0px -2px 10px 0px rgba(50, 50, 50, 0.27);
 }
 
-.research {
-  height: 200px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-}
-
-.graph {
-  height: 250px;
-  margin-left: 20px;
-  margin-bottom: 15px;
-}
-
 .main-container {
   margin-top: 120px;
 }
