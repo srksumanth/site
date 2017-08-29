@@ -27,7 +27,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
             console.log(i);
           }, 50 * i);
           setTimeout(function(){
@@ -40,8 +40,8 @@
         $(".projects-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft")
-              .addClass("fadeInLeft")
+            $item.removeClass("fadeOutUp")
+              .addClass("fadeInUp")
               .css({
                 "display": "inherit"
               });
@@ -54,7 +54,7 @@
         $(".projects-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
           }, 50 * i);
         });
         setTimeout(function(){
@@ -66,7 +66,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft").addClass("fadeInLeft").css({
+            $item.removeClass("fadeOutUp").addClass("fadeInUp").css({
               "display": "inherit"
             });
           }, 50 * i);
@@ -100,7 +100,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
             console.log(i);
           }, 50 * i);
           setTimeout(function(){
@@ -113,8 +113,8 @@
         $(".lectures-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft")
-              .addClass("fadeInLeft")
+            $item.removeClass("fadeOutUp")
+              .addClass("fadeInUp")
               .css({
                 "display": "inherit"
               });
@@ -127,7 +127,7 @@
         $(".lectures-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
           }, 50 * i);
         });
         setTimeout(function(){
@@ -139,7 +139,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft").addClass("fadeInLeft").css({
+            $item.removeClass("fadeOutUp").addClass("fadeInUp").css({
               "display": "inherit"
             });
           }, 50 * i);
@@ -152,7 +152,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
             console.log(i);
           }, 50 * i);
           setTimeout(function(){
@@ -165,8 +165,8 @@
         $(".overview-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft")
-              .addClass("fadeInLeft")
+            $item.removeClass("fadeOutUp")
+              .addClass("fadeInUp")
               .css({
                 "display": "inherit"
               });
@@ -179,7 +179,7 @@
         $(".overview-sub").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeInLeft").addClass("fadeOutLeft");
+            $item.removeClass("fadeInUp").addClass("fadeOutUp");
           }, 50 * i);
         });
         setTimeout(function(){
@@ -191,7 +191,7 @@
         $(".p1").each(function(i) {
           var $item = $(this);
           setTimeout(function() {
-            $item.removeClass("fadeOutLeft").addClass("fadeInLeft").css({
+            $item.removeClass("fadeOutUp").addClass("fadeInUp").css({
               "display": "inherit"
             });
           }, 50 * i);
@@ -203,21 +203,21 @@
 
   if($(window).width()<900){
     $("h2 small").html("R&amp;C");
-    $("#nav-icon").css({"display":"inherit"});
+    // $("#nav-icon").css({"display":"inherit"});
   }
   else{
       $("h2 small").html("RESEARCH AND CONSULTANCY");
-      $("#nav-icon").css({"display":"none"});
+      // $("#nav-icon").css({"display":"none"});
   }
 
   $(window).on('resize',function(){
     if($(window).width()<900){
       $("h2 small").html("R&amp;C");
-      $("#nav-icon").css({"display":"inherit"});
+      // $("#nav-icon").css({"display":"inherit"});
     }
     else{
         $("h2 small").html("RESEARCH AND CONSULTANCY");
-        $("#nav-icon").css({"display":"none"});
+        // $("#nav-icon").css({"display":"none"});
     }
 
 
