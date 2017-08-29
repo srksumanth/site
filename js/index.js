@@ -201,23 +201,23 @@
   });
 
 
-  if($(window).width()<900){
+  if($(window).width()<963){
     $("h2 small").html("R&amp;C");
-    // $("#nav-icon").css({"display":"inherit"});
+    $("#nav-icon").css({"display":"inherit"});
   }
   else{
       $("h2 small").html("RESEARCH AND CONSULTANCY");
-      // $("#nav-icon").css({"display":"none"});
+      $("#nav-icon").css({"display":"none"});
   }
 
   $(window).on('resize',function(){
-    if($(window).width()<900){
+    if($(window).width()<963){
       $("h2 small").html("R&amp;C");
-      // $("#nav-icon").css({"display":"inherit"});
+      $("#nav-icon").css({"display":"inherit"});
     }
     else{
         $("h2 small").html("RESEARCH AND CONSULTANCY");
-        // $("#nav-icon").css({"display":"none"});
+        $("#nav-icon").css({"display":"none"});
     }
 
 
