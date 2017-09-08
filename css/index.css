@@ -95,9 +95,6 @@ li {
 
 .card {
   border-radius: 4px;
-/*box-shadow: rgba(42,45,54,.075) 0 12px 34px, rgba(0,0,0,.05) 0 6px 15px, inset transparent 0 0 0 0;*/
-/* -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.34);
-box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.34); */
   -webkit-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
@@ -136,36 +133,45 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.34); */
   margin-left: 5%;
   border-radius: 3px;
 }
-@media (min-width:995px) {
+@media (min-width:1100px) {
   .card {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   .img {
     margin-top: 25px;
   }
 }
-
+@media (max-width:991px){
+  .mtop{
+    margin-top: 30px;
+  }
+}
 @media (max-width:767px) {
   .img {
     margin-top: 25px;
     margin-left: 30%;
   }
   .card {
-    margin-left: 110px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .mtop{
+    margin-top: 20px;
   }
 }
 
 @media (max-width:500px) {
   .img {
     margin-top: 25px;
-    margin-left: 30%;
+    margin-right: 25%;
+    margin-left: 25%;
   }
   .card {
     margin-left: 5px;
     margin-right: 5px;
   }
+  
 }
 
 a:hover {
