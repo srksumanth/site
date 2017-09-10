@@ -259,7 +259,7 @@ $("#rules-format-back").click(function() {
   });
 
 
-  if($(window).width()<963){
+  if($(window).outerWidth()<1086){
     $("h2 small").html("R&amp;C");
     $("#nav-icon").css({"display":"inherit"});
   }
@@ -269,7 +269,7 @@ $("#rules-format-back").click(function() {
   }
 
   $(window).on('resize',function(){
-    if($(window).width()<963){
+    if($(window).outerWidth()<1086){
       $("h2 small").html("R&amp;C");
       $("#nav-icon").css({"display":"inherit"});
     }
