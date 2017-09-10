@@ -94,6 +94,13 @@
       function(){
         $(".o-arrow").css({"opacity":"0","marginLeft":"10px"});
       });
+      // R & C rules format
+      $(".rules-format-link").hover(function(){
+        $(".rf-arrow").css({"opacity":"1","marginLeft":"0px"});
+      },
+      function(){
+        $(".rf-arrow").css({"opacity":"0","marginLeft":"10px"});
+      });
 
     //lectures-sub click
     $("#lectures").click(function() {
@@ -146,6 +153,57 @@
         });
       },450);
     });
+// R & C Rules and format
+$("#rules-format").click(function() {
+  $(".p1").each(function(i) {
+    var $item = $(this);
+    setTimeout(function() {
+      $item.removeClass("fadeInUp").addClass("fadeOutUp");
+      console.log(i);
+    }, 50 * i);
+    setTimeout(function(){
+      $(".p1").css({
+        "display": "none"
+      });
+    },600);
+  });
+  setTimeout(function(){
+  $(".rules-format-sub").each(function(i) {
+    var $item = $(this);
+    setTimeout(function() {
+      $item.removeClass("fadeOutUp")
+        .addClass("fadeInUp")
+        .css({
+          "display": "inherit"
+        });
+    }, 50 * i);
+  });
+},650);
+});
+//back click
+$("#rules-format-back").click(function() {
+  $(".rules-format-sub").each(function(i) {
+    var $item = $(this);
+    setTimeout(function() {
+      $item.removeClass("fadeInUp").addClass("fadeOutUp");
+    }, 50 * i);
+  });
+  setTimeout(function(){
+    $(".rules-format-sub").css({
+      "display": "none"
+    })
+  },400);
+  setTimeout(function(){
+  $(".p1").each(function(i) {
+    var $item = $(this);
+    setTimeout(function() {
+      $item.removeClass("fadeOutUp").addClass("fadeInUp").css({
+        "display": "inherit"
+      });
+    }, 50 * i);
+  });
+},450);
+});
 
     //overview-sub click
     $("#overview").click(function() {
